@@ -21,6 +21,30 @@ This is a simple expense management application that allows users to register, l
     pip install bcrypt
     ```
 
+## Creating a Standalone Executable
+
+To create a standalone executable for the Expense Tracker script, follow these steps:
+
+1. **Install PyInstaller**:
+   ```sh
+   pip install pyinstaller
+   ```
+
+2. **Generate the Executable**:
+   Navigate to the directory containing `expense.py` and run:
+   ```sh
+   pyinstaller --onefile expense.py
+   ```
+
+3. **Run the Executable**:
+   Navigate to the `dist` directory and run the executable:
+   ```sh
+   cd dist
+   ./expense   # On Windows, use expense.exe
+   ```
+
+This will create a standalone executable that you can run without needing to have Python installed on the target machine.
+
 ## Usage
 
 1. Initialize the database by running the application:
