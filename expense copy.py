@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sqlite3
 import getpass
 import datetime
@@ -87,7 +88,7 @@ def login():
     
     if user:
         user_id, stored_password_hash = user
-        if bcrypt.checkpw(password.encode(), stored_password_hash):
+        if bcrypt.checkpw(password.encode(), stored_password_hash.encode('utf-8')):  # Ensure encoding to bytes
             print("Login successful!")
             return user_id
         else:
