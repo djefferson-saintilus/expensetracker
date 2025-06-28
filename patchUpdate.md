@@ -9,3 +9,5 @@
 - improve UX with the option
 - replace montlhy summary by BIWEEKLY now everything will give the biweekly
 - add sum total biweekly or monthly
+- fix datetime error causing problem in view_expenses
+- 
