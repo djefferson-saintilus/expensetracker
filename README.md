@@ -39,7 +39,7 @@ A command-line Python application to help users track expenses, manage budgets, 
 
    ```bash
    git clone https://github.com/djefferson-saintilus/expensetracker.git
-   cd expense-tracker
+   cd expensetracker
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -62,7 +62,7 @@ A command-line Python application to help users track expenses, manage budgets, 
 1. Run the application:
 
    ```bash
-   python3 expensetracker.py
+   python3 expense.py
    ```
 
 2. Main menu:
