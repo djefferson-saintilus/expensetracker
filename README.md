@@ -1,6 +1,6 @@
 # expensetracker
 
-<div style='display:inline'>
+<div>
 <img src='expenselogin.png'>
 <img src='expensedashboard.png'>
 </div>
